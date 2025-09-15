@@ -2,7 +2,7 @@ import requests
 import time
 
 # Wait a few seconds to ensure DB is ready
-time.sleep(5)
+time.sleep(10)
 
 def test_homepage():
     r = requests.get("http://web:5000/")
